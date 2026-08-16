@@ -46,6 +46,8 @@
 
 - [GitHub - Tukist/buaa-audio-sync](https://github.com/Tukist/buaa-audio-sync) 【JAVASCRIPT】解决了部分课程切换为ppt流时没有声音的问题。将语音识别内容部分作为字幕添加到视频中，是两个独立的油猴脚本。
 
+- [Github - Micraow/BUAA-SPOC-AutoNotPlay](https://github.com/Micraow/BUAA-SPOC-AutoNotPlay) 【PYTHON】用于SPOC平台刷课（新生教育，保密教育等）
+
 ### 智慧北航
 
 - [GitHub - BUAASubnet/UBAA: 更好的智慧北航. Make BUAA Great Again!](https://github.com/BUAASubnet/UBAA)【KOTLIN】智慧北航 Remake，基于 Kotlin Multiplatform 和 Compose Multiplatform 构建的现代化C/S架构跨平台应用
@@ -102,9 +104,11 @@
 
 北航客户端VPN使用深信服EasyConnect，可能会在电脑中启动一个被称作“EasyMonitor”的进程，或有收集个人隐私的嫌疑。可以使用以下软件替代。
 
-- [GitHub - lyc8503/EasierConnect](https://github.com/lyc8503/EasierConnect) 【GO】一个命令行版本，不直接代理网络，只开放sock5端口，可以用clash等设置规则只让需要vpn的流量经过。
+- ~~[GitHub - lyc8503/NJUConnect](https://github.com/lyc8503/NJUConnect)【GO】一个命令行版本，不直接代理网络，只开放sock5端口，可以用clash等设置规则只让需要vpn的流量经过。~~
 - [GitHub - docker-easyconnect/docker-easyconnect](https://github.com/docker-easyconnect/docker-easyconnect) 【DOCKER】将EasyConnect封装在docker中。
+- [GitHub - Mythologyli/zju-connect](https://github.com/Mythologyli/zju-connect) 【GO】命令行版本，有虚拟网卡模式也有端口代理模式，可使用clash等分流
 - 提案：将d.buaa.edu.cn封装为http proxy。因为d.buaa.edu.cn虽然仅支持http与https但是相较于EasyConnect它对目标地址没有限制，可以以校内ip访问所有校内外资源。[1](https://github.com/ESWZY/webvpn-dlut),[2](https://github.com/lcandy2/webvpn-converter),[3](https://github.com/spencerwooo/bit-webvpn-converter)
+- 另一条路：【可能违反相关规定】自己在学校里有主机的可以使用[Easytier](https://github.com/EasyTier/EasyTier)进行打洞，大部分情况下可以P2P直连，再在校内主机上开代理，此方法稳定性可能比官方VPN高。[Easytier](https://github.com/EasyTier/EasyTier)也是北航的学长开发的。
 
 ### 博雅系统
 
@@ -170,8 +174,19 @@
 - [GitHub - HoBeedzc/CreditCount: 八系一般专业课学分核算工具，助你顺利毕业。](https://github.com/HoBeedzc/CreditCount) 【JAVASCRIPT】八系一般专业课学分核算工具。可以直接访问网页版 [学分核算](https://cc.hobeedzc.cn) 
 
 - [GitHub - grandchicken/1708SEM_ISIM: 八系信管专业课程攻略](https://github.com/grandchicken/1708SEM_ISIM) 【RICHTEXT】八系信管专业课程资料整理，持续更新ing...
-- 
+
+### 21系工具
+
+- [Github - Soft-Where-21/21CoreDocs](https://github.com/Soft-Where-21/21CoreDocs) 【RICHTEXT】软件学院各学期学科资料目录,由软件学院学生会发起
 
 ### 智慧校车
 
 - [GitHub - zeroduhyy/school_buss_ticket](https://github.com/zeroduhyy/school_buss_ticket) 【SELENIUM】半自动在线抢校车票
+
+### WE Learn
+
+- [Github - Micraow/WE-Learn-Answers](https://github.com/Micraow/WE-Learn-Answers) 【JAVASCRIPT】一个用于 WE Learn 课程页面的浏览器脚本，能高亮显示答案或自动填写。
+
+### 冯如杯
+
+- [Github - GFCYqw/Fengrubei_LaTeX_Template](https://github.com/GFCYqw/Fengrubei_LaTeX_Template) 【LATEX】冯如杯创意赛道LaTeX模板，有一些与规范不符的地方，可能需要手动改改
