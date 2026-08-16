@@ -102,9 +102,11 @@
 
 北航客户端VPN使用深信服EasyConnect，可能会在电脑中启动一个被称作“EasyMonitor”的进程，或有收集个人隐私的嫌疑。可以使用以下软件替代。
 
-- [GitHub - lyc8503/EasierConnect](https://github.com/lyc8503/EasierConnect) 【GO】一个命令行版本，不直接代理网络，只开放sock5端口，可以用clash等设置规则只让需要vpn的流量经过。
+- ~~[GitHub - lyc8503/NJUConnect](https://github.com/lyc8503/NJUConnect)【GO】一个命令行版本，不直接代理网络，只开放sock5端口，可以用clash等设置规则只让需要vpn的流量经过。~~
 - [GitHub - docker-easyconnect/docker-easyconnect](https://github.com/docker-easyconnect/docker-easyconnect) 【DOCKER】将EasyConnect封装在docker中。
+- [GitHub - Mythologyli/zju-connect](https://github.com/Mythologyli/zju-connect) 【Go】命令行版本，有虚拟网卡模式也有端口代理模式，可使用clash等分流
 - 提案：将d.buaa.edu.cn封装为http proxy。因为d.buaa.edu.cn虽然仅支持http与https但是相较于EasyConnect它对目标地址没有限制，可以以校内ip访问所有校内外资源。[1](https://github.com/ESWZY/webvpn-dlut),[2](https://github.com/lcandy2/webvpn-converter),[3](https://github.com/spencerwooo/bit-webvpn-converter)
+- 另一条路：【可能违反相关规定】自己在学校里有主机的可以使用[Easytier](https://github.com/EasyTier/EasyTier)进行打洞，大部分情况下可以P2P直连，再在校内主机上开代理，此方法稳定性可能比官方VPN高。[Easytier](https://github.com/EasyTier/EasyTier)也是北航的学长开发的。
 
 ### 博雅系统
 
